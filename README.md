@@ -7,21 +7,21 @@ use the following commands to install this app
 First get it from this repo
 
 ```
-bench get-app modern_desk https://github.com/pratheeshrussell/frappe-modern-desk
+bench get-app modern_desk https://github.com/terence-gb/GB_Desk
 ```
 add to your site
 ```
-bench --site [site name] install-app modern_desk
+bench --site gberp install-app modern_desk
 ```
 start the frappe app
 ```
-bench --site [site name] clear-cache
+bench --site gberp clear-cache
 bench start
 ```
 
 ## Uninstall app
 ```
-bench --site [site name] remove-from-installed-apps modern_desk  
+bench --site gberp remove-from-installed-apps modern_desk  
 bench remove-app modern_desk  
 ```
 
