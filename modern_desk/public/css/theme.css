@@ -1,10 +1,10 @@
 /* Works on Chrome, Edge, and Safari */
 /* Taken from https://github.com/tahir-zaqout/sundae_theme/tree/master/sundae_theme/public/css */
 :root{
-    --main-color: #691551;
-    --second-color: #af3d8f;
-    --third-color: #a5488a;
-    --widget-bg: #e8eafcad ;
+    --main-color: #e45a0a;
+    --second-color: #20da6d;
+    --third-color: #0a28af;
+    --widget-bg: #aaa81dad ;
 }
 [data-theme=modern_ui_theme]{
     --primary: var(--main-color);
@@ -20,12 +20,12 @@
 }
 [data-theme=modern_ui_theme] ul li a:hover {
     background-color: var(--second-color);
-    color: #fff;
+    color: #a77474;
 }
 /* Main */
 [data-theme=modern_ui_theme] body {
 	font-size: 14px;
-	background-color: #f3f6f9;
+	background-color: #8cabca;
 }
 [data-theme=modern_ui_theme]a {
     color: #666;
@@ -44,18 +44,18 @@
     background: linear-gradient(to right, var(--main-color), var(--second-color));
 }
 [data-theme=modern_ui_theme] .standard-sidebar-item.selected a{
-    color: #fff;
+    color: #ce4a4a;
 }
 [data-theme=modern_ui_theme] .standard-sidebar-item.selected a svg{
-    fill: #fff;
+    fill: #dd0404;
 }
 [data-theme=modern_ui_theme] .standard-sidebar-item:hover{
     background-color: var(--second-color);
 }
 [data-theme=modern_ui_theme] .standard-sidebar-item:hover a,
 [data-theme=modern_ui_theme] .standard-sidebar-item:hover svg{
-    color: #fff;
-    fill: #fff;
+    color: #a54444;
+    fill: #b31717;
 }
 
 
